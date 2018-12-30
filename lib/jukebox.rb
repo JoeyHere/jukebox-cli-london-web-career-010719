@@ -48,4 +48,5 @@ def run(songs)
     list(songs) if command == "help"
     command = gets.chomp
   end
+  exit
 end
