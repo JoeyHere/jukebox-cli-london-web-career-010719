@@ -37,3 +37,12 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
+  help
+  puts "Please enter a command:"
+  command = gets.chomp
+  while command != "exit"
+    play 
+  end
+end
