@@ -45,6 +45,6 @@ def run(songs)
     command = gets.chomp
     play(songs) if command == "play"
     help if command == "help"
-    
+    list(songs) if command == "help"
   end
 end
