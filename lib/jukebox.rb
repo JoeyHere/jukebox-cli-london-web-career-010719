@@ -48,5 +48,5 @@ def run(songs)
     list(songs) if command == "help"
     command = gets.chomp
   end
-  exit
+  exit_jukebox
 end
