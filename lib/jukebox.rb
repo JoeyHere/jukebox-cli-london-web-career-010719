@@ -43,6 +43,6 @@ def run
   puts "Please enter a command:"
   command = gets.chomp
   while command != "exit"
-    play 
+    play
   end
 end
